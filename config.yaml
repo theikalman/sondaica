@@ -1,0 +1,7 @@
+rest_api:
+  open_api_spec: tests/resources/open-api.yaml
+  output_server_dir: tests/server
+  output_client_dir: tests/client
+  handlers:
+    - operationId: updatePet
+      handlerName: UpdatePet
